@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jejithem/public_html/heribert/
+    - /bin/cp -R * $DEPLOYPATH
